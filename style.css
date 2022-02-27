@@ -7,10 +7,12 @@
 #nev{
 	text-align: center;
 }
-##logo{
+#logo{
 	float: left;
 	height: 20px;
 	width: 20px;
+	padding-bottom: 0%;
+	position: relative;
 }
 #fejlec{
 	position: relative;
@@ -19,6 +21,7 @@
 	text-align: center;
 	width: 100%;
 	font-size: 150%;
+	padding-top: 1%;
 }
 #menu{
 	float: left;
@@ -26,6 +29,7 @@
 	background-color: #03a9fc;
 	width: 100%;
 	padding-bottom: 1%;
+	padding-top: 1%;
 }
 #menu li{
 	display: table;
