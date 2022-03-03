@@ -7,6 +7,7 @@
 #nev{
 	text-align: center;
 	background-color: #03a9fc;
+	font-size: 150%;
 }
 #logo{
 	float: left;
@@ -15,14 +16,19 @@
 	padding-bottom: 0%;
 	position: absolute;
 }
+
+img.logo{
+	height: 100%;
+	width: 100%;
+}
 #fejlec{
 	position: relative;
 	display: block;
 	background-color: #03a9fc;
 	text-align: center;
 	width: 100%;
-	font-size: 150%;
 	padding-top: 1%;
+	
 }
 #menu{
 	float: left;
@@ -32,19 +38,22 @@
 	padding-bottom: 1%;
 	padding-top: 1%;
 }
+#menu ul{
+	float: right;
+	width: 90%;
+	font-size: 125%;
+	line-height: 200%;
+}
 #menu li{
 	display: table;
 	height: 100%;
 	padding: 1%;
 	display:inline;
 	background-color: #03a9fc;
+
 }
 #menu li:hover{
 	background-color: #009ceb;
-}
-#menu ul{
-	float: right;
-	width: 90%;
 }
 #leiras_bemutatkozas{
 	text-align: center;
@@ -58,8 +67,4 @@
 	font-family: calibri;
 	background-color: #01A7C2;
 	padding-bottom: 1%;
-}
-img.logo{
-	height: 100%;
-	width: 100%;
 }
