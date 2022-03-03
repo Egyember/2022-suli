@@ -6,6 +6,7 @@
 }
 #nev{
 	text-align: center;
+	background-color: #03a9fc;
 }
 #logo{
 	float: left;
@@ -31,18 +32,32 @@
 	padding-bottom: 1%;
 	padding-top: 1%;
 }
-#menu ul{
-	float: right;
-	width: 90%;
-}
 #menu li{
 	display: table;
 	height: 100%;
 	padding: 1%;
-	display:inline
+	display:inline;
+	background-color: #03a9fc;
 }
 #menu li:hover{
 	background-color: #009ceb;
+}
+#menu ul{
+	float: right;
+	width: 90%;
+}
+#leiras_bemutatkozas{
+	text-align: center;
+	font-size: 190%;
+	font-family: calibri;
+	background-color: #01A7C2;
+}
+#leiras_tagok{
+	text-align: left;
+	font-size: 150%;
+	font-family: calibri;
+	background-color: #01A7C2;
+	padding-bottom: 1%;
 }
 img.logo{
 	height: 100%;
