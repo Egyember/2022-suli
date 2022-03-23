@@ -74,7 +74,9 @@ img.randomkep{
 	display : block;
 	margin : auto;
 }
-
+#tartalom p{
+	margin: 1%;
+}
 /* ugyanaz mint az index alján
 #leiras_bemutatkozas{
 	text-align: center;
