@@ -11,6 +11,7 @@
 	<!-- CSS only -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 	<link href="style.css" rel="stylesheet" type="text/css"> <!--Megjegyzés hozzáfűzése-->
+<link href="1.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 	<div id="fejlec">
@@ -41,6 +42,21 @@
 		</p>
 		<p>Gyenge Zsombor vagyok. 16 éves vagyok. A 10 D osztályba járok az UMSZKI-ban. Szabaditőmben átalában a gép előt ülök és játszok valamit a barátaimmal vagy random ötletet próbálok megvalósitani. Egyébként én vagyok a csapat kapcsolat tartója ami nem egyszerű mert egy két csapattagot egyátalán nem lehet elérni valószinű nekik a végleges verzióban is űres lesz a lapja mert helyetűk nem tudok bemutatokzni mert nem is nagyon ismerem őket. Sajnos nekem is megvan az a rosz szokásom hogy mindent az utolsó napra hagyok ugyhogy ezt is éppen este 9-kor írom reélem a tőbieké idő közben még befút mert elég hiányos eddig.</p>
 		<!--ide mehet a szöveg majd-->
+	<div class="captcha center">
+        <span class="checkbox"></span>
+        <h2>I'm not a robot</h2>
+    </div>
+
+    <div class="captcha_window center">
+        <h3>Draw a checkmark and handwrite "I'm not a robot" to confirm.</h3>
+        <canvas class="checkmark" width="150" height="150"></canvas>
+        <p class="incorrect">Checkmark incorrectly drawn. Try again.</p>
+        <canvas class="handwrite" width="300" height="100"></canvas><br>
+        <p class="incorrect">I don't really like this handwriting. Try again.</p>
+        <button>Submit</button>
+    </div>
+
+    <script src="main.js"></script>
 	</div>
 
 </body>
